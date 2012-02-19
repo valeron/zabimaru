@@ -12,3 +12,7 @@ end
 gem 'jquery-rails'
 gem "rspec-rails"
 
+group :production do
+  gem 'pg'
+end
+
