@@ -9,6 +9,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+  gem "sqlite3-ruby", :require => "sqlite3"
+end
+
 gem 'jquery-rails'
 gem "rspec-rails"
 
